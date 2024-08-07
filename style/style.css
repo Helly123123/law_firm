@@ -1,0 +1,504 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 52px;
+  background-color: #010101;
+  gap: 863px;
+}
+
+.contacts-info-cont {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contacts-cont {
+  display: flex;
+  gap: 28px;
+}
+
+.title-contacts {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+}
+
+.order-call-button {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #4f8ff0;
+  background-color: #010101;
+  border: none;
+}
+
+.main-navigation-cont {
+  width: 2000px;
+  height: 112px;
+  background-color: #010101;
+  opacity: 76%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 350px;
+  position: absolute;
+}
+
+.main-navigation {
+  display: flex;
+  gap: 28px;
+}
+
+.logo {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  color: #4f8ff0;
+}
+
+.subtitle-logo {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: -25px;
+}
+
+.page {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-title-cont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.main-title-cont h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.main-title-cont h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 56px;
+  color: #4f8ff0;
+  margin-top: -20px;
+  margin-bottom: -5px;
+}
+
+.main-title-cont h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.main-title-cont button {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  width: 158px;
+  height: 49px;
+  background: #4f8ff0;
+}
+
+
+.our-services {
+  width: 100%;
+  height: 960px;
+  background-color: #F7F7F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.our-services-title {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  text-align: center;
+}
+
+.our-services-subtitle {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.our-services-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ gap: 38px 24px;
+}
+
+.our-services-block {
+  width: 424px;
+  height: 250px;
+  padding: 32px, 50px, 32px, 50px;
+  background-color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.our-services-block h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.our-services-block p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.all-services-button {
+  width: 138px;
+  height: 49px;
+  background-color: #4F8FF0;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: white;
+  border: none;
+  margin-top: 48px;
+}
+
+.law-firm-cont {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+
+.law-firm-title {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+
+.law-firm-title span {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  color: #4F8FF0;
+}
+
+.law-firm-subtitle {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.law-firm-button-cont {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 32px;
+}
+
+.company-history-button {
+  width: 210px;
+  height: 49px;
+  background-color: #4F8FF0;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: white;
+  border: none;
+}
+
+.certificates-button {
+  width: 161px;
+  height: 49px;
+  background-color: #E6E6E6;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  border: none;
+}
+
+.our-lawyers {
+  width: 100%;
+  height: 739px;
+  background-color: #F7F7F7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.our-lawyers-title {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.our-lawyers-subtitle {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;  
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.lawyers-cont {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+}
+
+.lawyers-details-cont {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -10px;
+}
+
+.lawyer-name {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px; 
+  margin-bottom: -5px;
+}
+
+.lawyer-post {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px; 
+}
+
+.useful-materials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 913px;
+}
+
+.useful-materials-title {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  font-size: 28px; 
+  margin-bottom: 24px;
+}
+
+.useful-materials-subtitle {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px; 
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.useful-materials-card-tile {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px; 
+}
+
+.useful-materials-card-date {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 12px; 
+  color: #222222;
+}
+
+.useful-materials-card-text {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px; 
+  color: #222222;
+}
+
+.useful-materials-card-date-cont {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.line-date {
+  width: 314px;
+  height: 1px;
+  background-color: #F8F5F4;
+}
+
+.useful-materials-card-cont {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+footer {
+  width: 100%;
+  height: 584px;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-info-footer-cont {
+  display: flex;
+  align-items: center;
+  gap: 180px;
+}
+
+.footer-title-cont {
+  display: flex;
+  align-items: center;
+  gap: 182px;
+}
+
+.footer-title {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 28px; 
+  color: #4F8FF0;
+  margin-bottom: -17px;
+}
+
+.footer-subtitle {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 20px; 
+  color: white;
+}
+
+.quote-footer {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px; 
+  color: white;
+}
+
+.footer-info-cont{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.cont-info-title p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #8C8C8C;
+  margin-bottom: -13px;
+}
+
+.cont-info-title h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+
+.footer-nav-cont {
+  list-style-type: none;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.page-footer {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+.leading-lawyer-info-cont {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+
+.leading-lawyer-name {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  margin-bottom: -10px;
+}
+
+.leading-lawyer-post {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: white;
+}
+
+.quote-leading-lawyer {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+}
+
+.ask-lawyer-question-button {
+  width: 241px;
+  height: 49px;
+  background-color: #4F8FF0;
+  border: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: white;
+  margin-top: 28px;
+}
+
+.footer-block {
+  display: flex;
+  gap: 120px;
+}
+
+.line-footer {
+  width: 1320px;
+  height: 1px;
+  background-color: #8C8C8C;
+  margin-bottom: 48px;
+  margin-top: 48px;
+}
